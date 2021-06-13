@@ -1,8 +1,3 @@
-/*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
 
@@ -72,7 +67,7 @@
 		// Methods.
 			$main._show = function(id, initial) {
 
-				var $article = $main_articles.filter('#' + id);
+				var $article = $main_articles.filter(id);
 
 				// No such article? Bail.
 					if ($article.length == 0)
